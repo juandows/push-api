@@ -2,7 +2,7 @@ require "rubygems"
 require 'capistrano/shared_file'
 
 set :application,           "push-api"
-set :repository,            "git@gitlab.ders:ruben/push-api.git"
+set :repository,            "github.com/juandows/push-api.git"
 set :scp,                   :git
 set :deploy_via,            :rsync_with_remote_cache
 set :user,                  "juande"

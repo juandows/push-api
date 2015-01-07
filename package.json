@@ -1,0 +1,18 @@
+{
+	"name": "UniqushPushAPI",
+	"version": "1.0.0",
+	"author": "Ruben Simon Andreo <ruben@droiders.com>",
+	"description": "Uniqush Push server API for register/unregister services, subscribers...",
+	"scripts": {
+		"start": "forever -w -c 'node --debug' app.js",
+		"stop": "forever stopall"
+	},
+	"repository": {
+	    "type": "git",
+	    "url": "git@gitlab.ders:enjoystr/push-api.git"
+    },
+	"dependencies": {
+		"express": "3.x",
+		"forever": "0.10.8"
+	}
+}
